@@ -1,0 +1,37 @@
+# Week 4: Neural Networks for Vision Tasks
+
+## Setup
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+
+Run each script in order:
+
+```bash
+# 1. Explore PyTorch Autograd
+python autograd_exploration.py
+
+# 2. Train FCNN on MNIST
+python fcnn_mnist.py
+
+# 3. Train CNN on CIFAR-10
+python cnn_cifar10.py
+```
+
+## Output Files
+
+**MNIST:**
+- `mnist_sample.png` - Sample images
+- `mnist_training_loss.png` - Training loss plot
+- `mnist_confusion_matrix.png` - Confusion matrix
+- `mnist_classification_report.txt` - Performance metrics
+
+**CIFAR-10:**
+- `cifar10_sample.png` - Sample images
+- `cifar10_training_loss.png` - Training loss plot
+- `cifar10_confusion_matrix.png` - Confusion matrix
+- `cifar10_classification_report.txt` - Performance metrics
